@@ -2,6 +2,7 @@
 This is .net application to sync data from web API. the solution was created using .net console.
 
 Create database in sql server named Testing and create two table named well and platform
+
 ![image](https://user-images.githubusercontent.com/84265791/229784874-6d56e30b-756a-45f5-b087-b6f191ed8d11.png)
 
 ![image](https://user-images.githubusercontent.com/84265791/229785148-efeeb3dc-0d8a-49d6-be4c-df3e1edd0f15.png)
