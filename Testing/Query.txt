@@ -1,0 +1,5 @@
+select 'Platform' + RIGHT(platformId, LEN(platformId) - 1) as platformName,id,platformId,uniqueName,latitude,longitude,createdAt,updatedAt from well as rg
+where updatedAt = (select max(updatedAt)
+	from well as lrg
+	where rg.platformId = lrg.platformId)
+order by id
